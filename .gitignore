@@ -1,0 +1,26 @@
+﻿#  Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+#  Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+#  Ignore build/distribution folders
+build/
+dist/
+*.egg-info/
+
+#  Ignore VS Code settings
+.vscode/
+
+#  Ignore environment variables or secret files
+.env
+
+#  Ignore macOS hidden files
+.DS_Store
