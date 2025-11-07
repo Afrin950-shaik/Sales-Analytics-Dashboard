@@ -46,6 +46,19 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/Afrin950-shaik/Sales-Analytics-Dashboard>
 cd Sales-Analytics-Dashboard
+
+### 2. Create and activate virtual environment
+```bash
+python -m venv .venv
+& .\.venv\Scripts\Activate.ps1
+
+
+pip install -r requirements.txt
+
+streamlit run app/streamlit_app.py
+
+
+Local URL: http://localhost:8501
 
